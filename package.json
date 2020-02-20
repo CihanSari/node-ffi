@@ -26,13 +26,13 @@
     "bindings": "~1.5.0",
     "debug": "4",
     "nan": "^2.13.2",
-    "ref": "lxe/ref#node-12",
-    "ref-struct": "lxe/ref-struct#node-12"
+    "ref": "github:cihansari/ref",
+    "ref-struct": "github:cihansari/ref-struct"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
     "mocha": "*",
-    "ref-array": "lxe/ref-array#node-12"
+    "ref-array": "github:cihansari/ref-array"
   },
   "scripts": {
     "test": "node-gyp rebuild --directory test && mocha -gc --reporter spec"
